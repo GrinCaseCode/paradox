@@ -494,6 +494,14 @@
 	.item-news__title {
 		-webkit-line-clamp: 3;
 	}
+	.item-about {
+		min-height: 200px;
+		display: block;
+	}
+	.item-about__icon {
+		margin: 0 !important;
+		margin-bottom: 15px !important;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -626,6 +634,22 @@
 	}
 	.advantages {
 		padding-bottom: 27px;
+	}
+	.row_about {
+		margin: 0 -7px;
+	}
+	.row_about > div {
+		padding: 0 7px;
+	}
+	.title-small {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.item-about {
+		font-size: 12px;
+		line-height: 17px;
+		margin-bottom: 20px;
+		min-height: 215px;
 	}
 }
 

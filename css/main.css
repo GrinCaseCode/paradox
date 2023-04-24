@@ -167,6 +167,7 @@ form {
 }
 .sandwich.active .sw-topper {
 	top: 8px;
+	width: 25px;
 	transform: rotate(45deg);
 }
 .sandwich.active .sw-bottom {

@@ -22,15 +22,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	$(".navigat li a").mPageScroll2id();
 
 
-	//кнопка sandwich
-	$(".sandwich").click(function() {
-		$(this).toggleClass("active");
-		if ($(".menu-mobile").is(":hidden")) {
-			$(".menu-mobile").slideDown(200);
-		} else {
-			$(".menu-mobile").slideUp(200);
-		}
-	});
+
 
 	//слайдер
 
