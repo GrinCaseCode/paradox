@@ -894,6 +894,9 @@
 	#map {
 		height: 320px;
 	}
+	.article-content ul li {
+		padding-left: 11px;
+	}
 }
 
 /* Custom, iPhone Retina */
